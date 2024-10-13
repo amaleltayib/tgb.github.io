@@ -454,6 +454,7 @@ footer .footer_socials  {
     display: flex;
     flex-direction: row;
     text-align: center;
+    margin-left: 1.5vw;
 }
 
 footer .footer_socials ul {
