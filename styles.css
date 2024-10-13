@@ -110,6 +110,8 @@ h3 {
 
 /******************************HEADER******************************/
 
+header {position: sticky;}
+
 .navbar {
     background-image: linear-gradient(to right, #FFAEF1, #FFCDF7);
     color: white;
@@ -124,6 +126,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: sticky;
 }
 
 .logo img {
