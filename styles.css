@@ -604,6 +604,23 @@ footer p {
     margin: 3vh 0 -2.5vh 0;
 }
 
+.ourteam h3 {
+    margin: 2vh 0 -2vh 0;
+    font-size: 1.2rem;
+}
+
+.triplecontainer2 h4 {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: auto;
+    letter-spacing: 0.02px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0vh 0 -2.5vh 0;
+    color: #BB9A47;
+}
+
 .triplecontainer2 p {
     margin: 2vh 2vh -1vh 2vh;
     color:#A04390;
@@ -633,10 +650,12 @@ footer p {
         padding: 0 4vw 0 4vw;
         width:100%;
     }
-
     .box_card .bc2 .b2 {
         padding-bottom: 1000px;
         border: solid;
+    }
+    .nukd {
+        margin: -3vh 0 0 0;
     }
 }
 
