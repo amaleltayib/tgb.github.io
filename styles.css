@@ -119,6 +119,7 @@ header {position: sticky;}
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 3;
 }
 
 .nav-container {
@@ -127,6 +128,10 @@ header {position: sticky;}
     align-items: center;
     padding: 10px 20px;
     position: sticky;
+}
+
+.donationheader {
+    margin-bottom: 5vh;
 }
 
 .logo img {
@@ -449,6 +454,12 @@ footer {
     background-color: rgb(255, 174, 241);
 }
 
+.donationfooter {
+    margin-top: 10vh;
+    position: relative;
+    z-index: 3;
+}
+
 footer div {
     display: flex;
     flex-direction: row;
@@ -578,7 +589,7 @@ footer p {
     margin: 5vh 15vw 10vh 15vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 2vw;
 }
 
@@ -904,7 +915,7 @@ section {
 
 .right {
   width: 60%;
-  background-image: url(images/donate1.png);
+  background-image: url(images/donate1.jpg);
   background-size: cover;
   height: 600px;
   margin-left: -250px;
